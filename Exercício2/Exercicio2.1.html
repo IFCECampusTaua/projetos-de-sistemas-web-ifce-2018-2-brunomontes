@@ -1,0 +1,52 @@
+<!doctype>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+         <form style="font-family: arial">   
+            <h2 style="width: 550px;text-align:center"><span style="font-family: serif;">Ficha Cadastral</span></h2>
+
+		<table border="0" style="width:500px; font-size: 15; border-spacing: 1px; padding: 1px">
+        	
+                  <tr>
+            	     <td style="padding-right:100px">Nome: </td>
+                       <td colspan="3"><input type="text" name="tNome" id="cNome" size="50" maxlength="   55"></td>
+                  </tr>
+                  <tr>
+            	     <td>RG: </td>
+            	     <td><input type="text" name="tRg" id="cRg" maxlength="13" size="10"></td>
+            	     <td style="padding-right: 100px; padding-left: 10px">C.P.F: </td>
+            	     <td><input type="text" name="tCpf" id="cCpf" maxlength="13" size="13"></td>
+                  </tr>
+                  <tr>
+            	     <td>Endereço: </td>
+            	     <td colspan="3"><input type="text" name="tEnd" id="cEnd" size="50" maxlength="55"></td>
+                  </tr>
+                  <tr>
+            	     <td>Sexo:</td>
+            	     <td>
+            		    <select name="rSexo" id="cSexo">
+            		          <option> Masculino</option>
+            		          <option> Feminino</option>
+            		    </select>
+            	     </td>
+            	     <td style="padding-left: 10px">Data Nascimento:</td>
+            	     <td><input type="text" name="dDn" id="cDn" size="13" maxlength="13"></td>
+                  </tr>
+                  <tr>
+            	     <td>Situação Civil</td>
+            	     <td><input type="radio" name="rSitc" id="cSitc">Solteiro(a)</td>
+            	     <td style="padding-left: 10px"><input type="radio" name="rSitc" id="cSitc">Casado(a)</td>
+            	     <td><input type="radio" name="rSitc" id="cSitc">Viúvo(a)</td>
+                  </tr>
+                  <tr>
+            	     <td colspan="4" style="text-align:center"><input type="submit" value="Limpar Dados" name="sLimpD" id="cLimpD"></td>
+                  </tr>
+
+		</table>
+         </form>	
+	</body>
+
+
+</html>
