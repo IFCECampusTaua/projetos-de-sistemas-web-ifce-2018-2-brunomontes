@@ -1,0 +1,264 @@
+body{
+    font-size: 25px;
+    font-family: Arial;
+}
+
+#div1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: orangered;
+    color: white;
+    width: 30%;
+    height: 30%;
+}
+
+#div2{
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    background-color: #DE9800;
+    color: white;
+    width: 70%;
+    height: 65%;
+}
+
+#div3{
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    background-color: #1E90FF;
+    color: white;
+    width: 30%;
+    height: 70%;
+
+
+}
+
+#div4{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    background-color: #003366;
+    color: white;
+    width: 50%;
+    height: 35%;
+
+}
+
+#div5{
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 35%;
+
+}
+
+#text{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    background-color: #1398BE;
+    color: #4F4F4F;
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    text-shadow: 1px 1px #1C1C1C;
+    z-index: 2;
+}
+
+#campText{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    background-color: #FFF;
+    width: 30%;
+    height: 55%;
+    border-radius: 10px;
+    box-shadow: 3px 3px #666666;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width: 400px) and (orientation: portrait){
+    body{
+        font-size: 25px;
+        font-family: Arial;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 800px;
+    }
+
+    #div1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: orangered;
+        color: white;
+        width: 100%;
+        height: 30%;
+    }
+
+    #div2{
+        position: absolute;
+        top: 30%;
+        left: 0px;
+        background-color: #DE9800;
+        color: white;
+        width: 100%;
+        height: 65%;
+    }
+
+    #div3{
+        position: absolute;
+        top: 95%;
+        left: 0px;
+        background-color: #1E90FF;
+        color: white;
+        width: 100%;
+        height: 70%;
+
+
+    }
+
+    #div4{
+        position: absolute;
+        top: 165%;
+        left: 0px;
+        background-color: #003366;
+        color: white;
+        width: 100%;
+        height: 35%;
+
+    }
+
+    #div5{
+        position: absolute;
+        top: 200%;
+        left: 0px;
+        background-color: green;
+        color: white;
+        width: 100%;
+        height: 35%;
+
+    }
+    #text{
+        position: absolute;
+        top: 40%;
+        left: 3%;
+        background-color: #1398BE;
+        color: #4F4F4F;
+        width: 94%;
+        height: 6%;
+        border-radius: 5px;
+        text-shadow: 1px 1px #1C1C1C;
+        font-size: 15px;
+        z-index: 2;
+    }
+
+    #campText{
+        position: absolute;
+        top: 40%;
+        left: 3%;
+        background-color: #FFF;
+        width: 94%;
+        height: 38%;
+        border-radius: 5px;
+        box-shadow: 3px 3px #666666;
+        z-index: 1;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape){
+    body{
+        font-size: 25px;
+        font-family: Arial;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #div1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: orangered;
+        color: white;
+        width: 30%;
+        height: 100%;
+    }
+
+    #div2{
+        position: absolute;
+        top: 0px;
+        left: 30%;
+        background-color: #DE9800;
+        color: white;
+        width: 30%;
+        height: 100%;
+    }
+
+    #div3{
+        position: absolute;
+        top: 0px;
+        left: 60%;
+        background-color: #1E90FF;
+        color: white;
+        width: 30%;
+        height: 100%;
+
+
+    }
+
+    #div4{
+        position: absolute;
+        top: 0px;
+        left: 90%;
+        background-color: #003366;
+        color: white;
+        width: 30%;
+        height: 100%;
+
+    }
+
+    #div5{
+        position: absolute;
+        top: 0px;
+        left: 120%;
+        background-color: green;
+        color: white;
+        width: 30%;
+        height: 100%;
+
+    }
+    #text{
+        position: absolute;
+        top: 55%;
+        left: 3%;
+        background-color: #1398BE;
+        color: #4F4F4F;
+        width: 94%;
+        height: 5%;
+        border-radius: 5px;
+        text-shadow: 1px 1px #1C1C1C;
+        font-size: 15px;
+        z-index: 2;
+    }
+
+    #campText{
+        position: absolute;
+        top: 55%;
+        left: 3%;
+        background-color: #FFF;
+        width: 94%;
+        height: 44%;
+        border-radius: 5px;
+        box-shadow: 3px 3px #666666;
+        z-index: 1;
+    }
+}
